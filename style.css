@@ -68,7 +68,7 @@ main {
 
 
 .btn-mac {
-  background-color: hsl(233, 100%, 69%);
+  background-color:rgb(117, 62, 153)
 }
 
 .ferramenta {
@@ -197,7 +197,7 @@ main {
 
 
 footer {
-  background-color: hsl(201, 11%, 96%);
+  background-color: white;
 }
 
 .footer-container {
@@ -221,14 +221,14 @@ footer {
 }
 
 .footer-links a {
-  color: hsl(210, 10%, 33%);
+  color: rgb(85, 95, 128);
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-  color: hsl(171, 66%, 44%); 
+  color: aqua; 
 }
 
 .social-links {
