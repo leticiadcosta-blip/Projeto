@@ -113,18 +113,6 @@ main {
   max-width: 350px;     
 }
 
-.ferramenta-list .item h3 {
-  color: hsl(210, 10%, 33%);
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-.ferramenta-list .item p {
-  font-size: 16px;
-  line-height: 165%;
-  color: hsl(201, 11%, 66%);
-}
 .section-header {
   max-width: 730px;
   margin: 0 auto 48px auto;
