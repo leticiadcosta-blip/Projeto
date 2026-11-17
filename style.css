@@ -268,3 +268,38 @@ footer {
   }
 }
 
+
+@media (min-width: 768px) {
+  .parceiros {
+    flex-direction: row;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 24px;
+  }
+}
+
+
+
+@media (min-width: 1024px) {
+  .parceiros {
+    justify-content: space-between; 
+    flex-wrap: nowrap;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 16px 32px;
+  }
+}
