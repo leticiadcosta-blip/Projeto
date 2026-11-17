@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Bai Jamjuree', sans-serif;
-  color: rgb(98, 146, 185); 
+  color: rgb(39, 40, 43); 
   background-color: #ffffff;
   background-image: url(img/Bitmap\ 2.png);
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ main {
 }
 
 .title {
-  color:rgb(84, 102, 122);
+  color:rgb(39, 40, 43);
   font-size: 32px;
   font-weight: 600;
   line-height: 125%;
@@ -48,6 +48,7 @@ main {
 }
 
 .btn {
+  border: none;
   display: inline-block;
   width: 100%;
   max-width: 225px;
@@ -58,11 +59,13 @@ main {
   font-weight: 600;
   color: #ffffff;
   text-align: center;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
 }
 
 
 .btn-ios {
-  background-color: hsl(171, 66%, 44%);
+  background-color: rgb(131, 133, 243) ;
 }
 
 
@@ -163,7 +166,7 @@ main {
 }
 
 .card h3 {
-  color: rgb(47, 88, 126);
+  color:rgb(39, 40, 43);
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 12px;
@@ -224,7 +227,7 @@ footer {
 }
 
 .footer-links a {
-  color: rgb(85, 95, 128);
+  color: rgb(39, 40, 43);
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s ease;
